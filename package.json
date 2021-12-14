@@ -1,17 +1,17 @@
 {
   "name": "tauri-plugin-log-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Tauri Programme within The Commons Conservancy"
   ],
   "description": "Tauri Plugin for logging",
   "browser": "webview-dist/index.min.js",
   "module": "webview-dist/index.mjs",
-  "types": "webview-dist/index.d.ts", 
+  "types": "webview-dist/index.d.ts",
   "private": "true",
-   "files": [
-     "webview-dist"
-   ],
+  "files": [
+    "webview-dist"
+  ],
   "scripts": {
     "build": "rollup -c ./webview-src/rollup.config.js",
     "prepublishOnly": "yarn build",
